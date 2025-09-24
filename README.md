@@ -6,24 +6,24 @@ Each project is in a separate folder with a description and source code attached
 
 # Projects:
 
-## Made in Java
-
-- **[Project 1: Mastermind](./mastermind)**
-- Object-oriented implementation of the Mastermind game.
-
-- **[Project 2: Totolotek](./lotery)**
-- Object-oriented implementation of a lottery.
-
 ## Made in C
 
-- **[Project 3: Sokoban](./sokoban)**
+- **[Project 1: Sokoban](./sokoban)**
 - Fully functional implementation of the game Sokoban.
 
-- **[Project 4: Moore Automata](./mooreAutomata)**
+- **[Project 2: Moore Automata](./mooreAutomata)**
 - Modular implementation of Moore automata with input/output connections.
 
-- **[Project 5: Rubiks Cube](./rubiksCube)**
+- **[Project 3: Rubiks Cube](./rubiksCube)**
 - Simulation of Rubik's Cube solving based on user instructions.
+
+## Made in Java
+
+- **[Project 4: Totolotek](./lotery)**
+- Object-oriented implementation of a lottery.
+  
+- **[Project 5: Mastermind](./mastermind)**
+- Object-oriented implementation of the Mastermind game.
   
 ## Made in Assembly
 
