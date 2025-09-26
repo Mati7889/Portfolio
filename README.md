@@ -19,7 +19,7 @@ Each project is in a separate folder with a description and source code attached
 
 ## Made in Java
 
-- **[Project 4: Lotto](./Lottery)**
+- **[Project 4: Lotto](./Lotto)**
 - Object-oriented implementation of a lottery.
   
 - **[Project 5: Mastermind](./Mastermind)**
