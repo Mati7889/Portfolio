@@ -27,8 +27,8 @@ Each project is in a separate folder with a description and source code attached
   
 ## Made in Assembly
 
-- **[Project 6: NSQRT](./nsqrt)**
+- **[Project 6: NSQRT](./Nsqrt)**
 - Computes the integer square root of a non-negative 2n-bit integer X.
 
-- **[Project 7: Freverse](./freverse)**
+- **[Project 7: Freverse](./Freverse)**
 - Reverses the contents of a file.
