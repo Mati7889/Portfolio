@@ -8,11 +8,11 @@ Each project is in a separate folder with a description and source code attached
 
 ## Made in C
 
-- **[Project 1: Sokoban](./sokoban)**
-- Fully functional implementation of the game Sokoban.
-
-- **[Project 2: Moore Automata](./mooreAutomata)**
+- **[Project 1: Moore Automata](./mooreAutomata)**
 - Modular implementation of Moore automata with input/output connections.
+
+- **[Project 2: Sokoban](./sokoban)**
+- Fully functional implementation of the game Sokoban.
 
 - **[Project 3: Rubiks Cube](./rubiksCube)**
 - Simulation of Rubik's Cube solving based on user instructions.
