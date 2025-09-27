@@ -1,6 +1,8 @@
 # Arbitrary-Precision Square Root
 
 This assembly x86-64 project implements an **iterative, bit-level algorithm** to compute the integer square root of a non-negative number `X` **up to 256 000 bits**  represented in binary form across multiple 64-bit words. For a given `2n`-bit input `X`, the algorithm computes an `n`-bit integer `Q` so that `Q^2 ≤ X < (Q+1)^2`.
+The program is focused on precise low-level arithmetic such as bit shifts, subtraction and borrow handling.
+Robustly handles edge cases and is designed for performance, compact size, correctness, and memory safety.
 
 ## The implementation is exposed as a C-callable assembly function:
 
@@ -33,6 +35,6 @@ The algorithm iteratively determines each bit of Q starting from the most signif
     Otherwise, set `q_j = 0` and `R_j = R_{j-1}`
   
 3. Final Result:
-After n iterations, Q = ∑ q_j 2^(n-j) and the remainder R_n = X - Q^2 satisfies 0 ≤ R_n < 2Q
+After n iterations, `Q = ∑ q_j 2^(n-j)` and the remainder `R_n = X - Q^2` satisfies `0 ≤ R_n < 2Q`.
 
 
