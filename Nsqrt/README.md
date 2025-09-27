@@ -27,11 +27,10 @@ The algorithm iteratively determines each bit of Q starting from the most signif
   `T_{j-1} = 2^(n-j+1) * Q_{j-1} + 2^(2(n-j))`
 
   - Compare R_{j-1} with T_{j-1}:
+    If `R_{j-1} ≥ T_{j-1}`, set `q_j = 1` and `R_j = R_{j-1} - T_{j-1}` O
+    therwise, set `q_j = 0` and `R_j = R_{j-1}`
   
-  If R_{j-1} ≥ T_{j-1}, set q_j = 1 and R_j = R_{j-1} - T_{j-1}
-  Otherwise, set q_j = 0 and R_j = R_{j-1}
-  
-4. Final Result:
+3. Final Result:
 After n iterations, Q = ∑ q_j 2^(n-j) and the remainder R_n = X - Q^2 satisfies 0 ≤ R_n < 2Q
 
 
