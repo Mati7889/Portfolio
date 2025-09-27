@@ -11,7 +11,8 @@ Cube's walls representation:
         d                       5
 
 ## Instructions:
-  Commands consist of: <number of layers> + <wall name> + <angle>
+  Commands consist of: {number of layers} + {wall name} + {angle}
+  
   E.g. 5b' moves 5 layers of wall 'b' 180 deg. right
   
   Leaving angle slot empty = 90 degrees   
