@@ -16,7 +16,7 @@ Cube's walls representation:
   E.g. 5b' moves 5 layers of wall 'b' 180 deg. right
   
   Leaving angle slot empty = 90 degrees   
-  - '/'' - means 180 degrees (/ signs does not count)
+  - '/'' - means 180 degrees (/ signs do not count)
   - '/"' - is -90 degrees right
   - '.'  - ends the game
 
