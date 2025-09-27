@@ -1,6 +1,9 @@
 # Lotto
+This object-oriented project emphasizes a clean class hierarchy, advanced error handling, and ensures correct interaction between components.
+It is designed to maintain high performance even during draws involving thousands of players and tickets.
+The project also demonstrates domain modeling, providing a clear representation of the main entities and their interactions within the lottery system.
 
-The project covers a complete simulation of a lottery system, including:
+ ## It covers a complete simulation of a lottery system, including:
 
 - **Institution system**: a cooperative structure involving the State Budget, the Headquarters, and multiple Offices.
 - **Tax collection** from prize winnings.  
