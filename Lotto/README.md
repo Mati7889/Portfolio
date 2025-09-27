@@ -10,7 +10,7 @@ The project also demonstrates domain modeling, providing a clear representation 
 - **Subsidies** provided by the state budget to support the lottery office when funds are insufficient.  
 - **Prize pool management**: calculation of rewards, distribution among tiers, and jackpot rollovers.  
 - **Lottery draws**: random selection of 6 out of 49 numbers.  
-- **Ticket simulation**: players can purchase two types of customisable tickets (randomized and self-filled).  
+- **Ticket simulation**: players can purchase two types of customizable tickets (randomized and self-filled).  
 - **Player strategies**: four different approaches to filling tickets (minimalist, random, fixed numbers, fixed blank).  
 - **Payout processing**: validating winning tickets and distributing prizes.  
 - **Final report**: printing detailed lottery results after all draws.
@@ -25,17 +25,17 @@ The project includes advanced error-handling mechanisms:
 ## Class Reference
 **[Presentation](./Presentation.java)** - runs the simulation for 20 draws, 10 offices and 200 players each strategy.
 
-**[Ticket](./Ticket)** - each has its own ID, from 1 to 8 six digit bets, can be bought for up to the 10 next draws and validated in office of buying.
+**[Ticket](./Ticket)** - each has its own ID, from 1 to 8 six digit bets, can be bought for up to the 10 next draws and validated in office of purchase.
 
 **[Headquarters](./Headquarters)** - class responsible for carrying out the draws, calculating pots and jackpots.
 
-**[Collection Offices](./CollectionOffice)** - sells and validates lottery tickets, is the prize collection point, allows players to buy multiple ticket variations.
+**[Collection Office](./CollectionOffice)** - sells and validates lottery tickets, serves as the prize collection point and allows players to buy multiple ticket variations.
 
 **[State](./StateBudget)** - gives subsidies if needed, collects taxes, gives reports.
 
 **[Minimalist](./Minimalist)** - buys one randomized ticket valid only for the nearest draw.
 
-**[Fixed Form](./FixedForm)** - always uses their favourite form and has fixed interval of buying a ticket.
+**[Fixed Form](./FixedForm)** - always uses their favorite form and buys tickets at fixed intervals.
 
 **[Fixed Number](./FixedNumber)** - always bets one set of numbers for the next 10 draws.
 
