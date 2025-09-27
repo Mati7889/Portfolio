@@ -22,17 +22,17 @@ The algorithm iteratively determines each bit of Q starting from the most signif
 
 1. Initialization:
   
-   Q0 = 0 (initial result) and R0 = X (remainder)
-
+     Q0 = 0 (initial result) and R0 = X (remainder)
+  
 2. Bitwise Iteration (for j = 1 … n):
-  - Compute the trial value:
-  `T_{j-1} = 2^(n-j+1) * Q_{j-1} + 2^(2(n-j))`
+    - Compute the trial value:
+    `T_{j-1} = 2^(n-j+1) * Q_{j-1} + 2^(2(n-j))`
 
-  - Compare R_{j-1} with T_{j-1}:
+    - Compare R_{j-1} with T_{j-1}:
 
-    If `R_{j-1} ≥ T_{j-1}`, set `q_j = 1` and `R_j = R_{j-1} - T_{j-1}`
+        If `R_{j-1} ≥ T_{j-1}`, set `q_j = 1` and `R_j = R_{j-1} - T_{j-1}`
     
-    Otherwise, set `q_j = 0` and `R_j = R_{j-1}`
+        Otherwise, set `q_j = 0` and `R_j = R_{j-1}`
   
 3. Final Result:
 After n iterations, `Q = ∑ q_j 2^(n-j)` and the remainder `R_n = X - Q^2` satisfies `0 ≤ R_n < 2Q`.
