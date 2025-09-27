@@ -5,7 +5,7 @@ This project implements a high-performance, dynamically loadable C library for s
 
 ## Overview:
 
-- A Moore automaton is represented as a 6-tuple ⟨X, Y, Q, t, y, q⟩, where:
+A Moore automaton is represented as a 6-tuple ⟨X, Y, Q, t, y, q⟩, where:
 
 - X – set of input signal values
 
