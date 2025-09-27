@@ -12,8 +12,6 @@ The project covers the complete simulation of a lottery system, including:
 - **Payout processing**: validating winning tickets and distributing prizes.  
 - **Final report**: printing detailed lottery results after all draws.
 
-## [Presentation](./Lotto/Presentation)
-
 ## Error Handling
 The project includes advanced error-handling mechanisms:  
 - Validation of ticket data (e.g., invalid numbers, incorrect formats).  
@@ -22,6 +20,7 @@ The project includes advanced error-handling mechanisms:
 - Informative error messages for debugging and testing purposes.  
 
 ## Class Reference
+**[Presentation](./Lotto/Presentation.java)** - runs the simulation for 20 draws, 10 offices and 200 players each strategy.
 
 **[Headquarters](./Lotto/Headquarters)** - class responsible for carring out the draws, calculating pots and jackpots.
 
