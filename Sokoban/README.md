@@ -18,7 +18,7 @@ A..Z - box on a target spot
 
 +    - free target spot
   
-#    - wall
+'#'  - wall
 
 2/4/6/8 - movement directions
 
