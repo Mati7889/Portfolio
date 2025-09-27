@@ -23,7 +23,7 @@ To play the player needs to paste their own board first upon program start.
 
 - 2/4/6/8 - movement directions
 
-##Commands:
+## Commands:
 
 - '0'     - undo the last move
 
