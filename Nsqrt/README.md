@@ -18,24 +18,22 @@ X is used as temporary workspace for intermediate calculations.
 
 The algorithm iteratively determines each bit of Q starting from the most significant bit:
 
-Initialization:
+1. Initialization:
+  
+   Q0 = 0 (initial result) and R0 = X (remainder)
 
-Q0 = 0 (initial result)
+2. Bitwise Iteration (for j = 1 … n):
 
-R0 = X (remainder)
+  Compute the trial value:
+  `T_{j-1} = 2^(n-j+1) * Q_{j-1} + 2^(2(n-j))`
 
-Bitwise Iteration (for j = 1 … n):
+  Compare R_{j-1} with T_{j-1}:
 
-Compute the trial value:
-`T_{j-1} = 2^(n-j+1) * Q_{j-1} + 2^(2(n-j))`
+  If R_{j-1} ≥ T_{j-1}, set q_j = 1 and R_j = R_{j-1} - T_{j-1}
 
-Compare R_{j-1} with T_{j-1}:
+  Otherwise, set q_j = 0 and R_j = R_{j-1}
 
-If R_{j-1} ≥ T_{j-1}, set q_j = 1 and R_j = R_{j-1} - T_{j-1}
-
-Otherwise, set q_j = 0 and R_j = R_{j-1}
-
-Final Result:
+3. Final Result:
 After n iterations, Q = ∑ q_j 2^(n-j) and the remainder R_n = X - Q^2 satisfies 0 ≤ R_n < 2Q
 
 
