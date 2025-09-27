@@ -5,6 +5,7 @@ The project is an implementation of a classic game [mastermind](https://en.wikip
 Features two different modes: 
 - computer guesses the code player sets 
 - player guesses the computer's code
+- 
 User can set the code lenght and how the outcome is displayed. Features algorithm for when computer is guessing that analises previous moves and decreases possible codes set.
 Counts the number of tries.
 
