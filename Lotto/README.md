@@ -20,20 +20,20 @@ The project includes advanced error-handling mechanisms:
 - Informative error messages for debugging and testing purposes.  
 
 ## Class Reference
-**[Presentation](./Lotto/Presentation.java)** - runs the simulation for 20 draws, 10 offices and 200 players each strategy.
+**[Presentation](./Presentation.java)** - runs the simulation for 20 draws, 10 offices and 200 players each strategy.
 
-**[Headquarters](./Lotto/Headquarters)** - class responsible for carring out the draws, calculating pots and jackpots.
+**[Headquarters](./Headquarters)** - class responsible for carring out the draws, calculating pots and jackpots.
 
-**[Collection Offices](./Lotto/CollectionOffice)** - sells and validates lottery tickets, is the prize collection point, allows players to buy multiple ticket variations
+**[Collection Offices](./CollectionOffice)** - sells and validates lottery tickets, is the prize collection point, allows players to buy multiple ticket variations
 
-**[State](./Lotto/StateBudget)** - gives subsidies if needed, collects taxes, gives reports.
+**[State](./StateBudget)** - gives subsidies if needed, collects taxes, gives reports.
 
-**[Ticket](./Lotto/Ticket)** - has its own ID, from 1 to 8 six digit bets, can be bought fr up to 10 next draws and validated in office of buying.
+**[Ticket](./Ticket)** - has its own ID, from 1 to 8 six digit bets, can be bought fr up to 10 next draws and validated in office of buying.
 
-**[Minimalist](./Lotto/Minimalist)** - buys one randomised ticket valid only for the nearest draw.
+**[Minimalist](./Minimalist)** - buys one randomised ticket valid only for the nearest draw.
 
-**[Fixed Form](./Lotto/FixedForm)** - has his favourite form filling method and fixed interval of buing a ticket.
+**[Fixed Form](./FixedForm)** - has his favourite form filling method and fixed interval of buing a ticket.
 
-**[Fixed Number](./Lotto/FixedNumber)** - has his favourite numbers always betting for the next 10 draws.
+**[Fixed Number](./FixedNumber)** - has his favourite numbers always betting for the next 10 draws.
 
-**[Random](./Lotto/Random)** - picks his tickets at random.
+**[Random](./Random)** - picks his tickets at random.
