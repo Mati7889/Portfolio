@@ -22,13 +22,13 @@ The project includes advanced error-handling mechanisms:
 ## Class Reference
 **[Presentation](./Presentation.java)** - runs the simulation for 20 draws, 10 offices and 200 players each strategy.
 
+**[Ticket](./Ticket)** - has its own ID, from 1 to 8 six digit bets, can be bought for up to 10 next draws and validated in office of buying.
+
 **[Headquarters](./Headquarters)** - class responsible for carring out the draws, calculating pots and jackpots.
 
 **[Collection Offices](./CollectionOffice)** - sells and validates lottery tickets, is the prize collection point, allows players to buy multiple ticket variations
 
 **[State](./StateBudget)** - gives subsidies if needed, collects taxes, gives reports.
-
-**[Ticket](./Ticket)** - has its own ID, from 1 to 8 six digit bets, can be bought fr up to 10 next draws and validated in office of buying.
 
 **[Minimalist](./Minimalist)** - buys one randomised ticket valid only for the nearest draw.
 
